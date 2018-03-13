@@ -1,7 +1,7 @@
 var femaleNames = ['Asia', 'Kasia', 'Ola', 'Jola'];
 var maleNames = ['Piotrek', 'Marek', 'Arek', 'Jarek'];
 
-var allNames = concat(femaleNames,maleNames);
+var allNames = femaleNames.concat(maleNames);
 
 console.log(allNames);
 
@@ -13,4 +13,6 @@ if (allNames.indexOf(newName) === -1){
     console.log('Parametr nieprawidłowy');
 }
 
-var arr = allNames.push('Marian');
+var arr = allNames.push(newName);
+
+
