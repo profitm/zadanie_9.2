@@ -7,11 +7,10 @@ var newName = 'Marian';
 
 if (allNames.indexOf(newName) === -1){
     console.log('Parametr prawidłowy');
+    allNames.push(newName);
 } else {
     console.log('Parametr nieprawidłowy');
 }
-
-var newNames = allNames.push(newName);
 
 console.log(allNames);
 document.write(allNames);
